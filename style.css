@@ -1,0 +1,53 @@
+.style1 {
+    position: relative;
+    padding: 0.3em 0.5em;
+    background: -webkit-linear-gradient(to bottom right, rgb(251, 232, 227), rgb(242, 163, 138));
+    background: linear-gradient(to bottom right, rgb(251, 232, 227), rgb(242, 163, 138));
+    color: #495193;
+    border-radius: 1.0rem;
+  }
+
+.style2 {
+    position: relative;
+    padding: 0.3em 0.5em;
+    background: -webkit-linear-gradient(to bottom right, rgb(222, 228, 244), rgb(151, 175, 230));
+    background: linear-gradient(to bottom right, rgb(222, 228, 244), rgb(151, 175, 230));
+    color: #495193;
+    border-radius: 1.0rem;
+}
+
+.style3 {
+    color: #010079;
+    text-shadow: 0 0 5px white;
+    border-left: solid 7px #010079;
+    background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    padding-left: 10px;
+}
+  
+.style4 {
+    position: relative;
+    border-top: solid 2px #80c8d1;
+    border-bottom: solid 2px #80c8d1;
+    background: #f4f4f4;
+    line-height: 1.4;
+    padding: 0.4em 0.5em;
+    margin: 2em 0 0.5em;
+}
+  
+.style4:after {
+    /*タブ*/
+    position: absolute;
+    font-family: "Font Awesome 5 Free",'Quicksand','Avenir','Arial',sans-serif;
+    font-weight: 900;
+    content: 'NEW';
+    background: #80c8d1;
+    color: #fff;
+    left: 0px;
+    bottom: 100%;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 7px 3px;
+    font-size: 0.7em;
+    line-height: 1;
+    letter-spacing: 0.05em;
+} 
